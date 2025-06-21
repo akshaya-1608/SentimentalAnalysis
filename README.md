@@ -1,14 +1,10 @@
-Here’s a clean and informative `README.md` you can use for your Sentiment Analysis NLP project. It includes a description, setup instructions, sample inputs, and expected outputs.
-
----
-
 # 🎭 Sentiment Analysis on Movie Reviews
 
 This Python project uses **Natural Language Processing (NLP)** and **Machine Learning** to classify movie reviews as **Positive 😊** or **Negative 😞**.
 
 It utilizes the **NLTK movie\_reviews** dataset, `CountVectorizer` for feature extraction, and a **Naive Bayes Classifier** for prediction. It also includes a live terminal interface for testing custom reviews.
 
----
+
 
 ## 🚀 Features
 
@@ -17,7 +13,6 @@ It utilizes the **NLTK movie\_reviews** dataset, `CountVectorizer` for feature e
 * Displays accuracy, confusion matrix, and classification report
 * Visualizes results using Seaborn and Matplotlib
 
----
 
 ## 🛠️ Installation
 
@@ -34,7 +29,6 @@ import nltk
 nltk.download('movie_reviews')
 ```
 
----
 
 ## ▶️ How to Run
 
@@ -46,7 +40,7 @@ python app.py
 
 Once trained, you’ll be prompted to enter your own reviews.
 
----
+
 
 ## 💬 Sample Inputs
 
@@ -64,7 +58,7 @@ Try entering these when prompted:
 * `Terrible acting and a very boring storyline.`
 * `I regret spending my time on this film.`
 
----
+
 
 ## 📊 Sample Output
 
@@ -90,6 +84,3 @@ Confusion Matrix:
 * Build a GUI using Streamlit
 * Deploy as a Flask web app
 
----
-
-Let me know if you want this README as a [Markdown file](f) or need help turning it into a [Streamlit app](f).
